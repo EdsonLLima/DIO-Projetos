@@ -1,4 +1,4 @@
-# Repositório do Desafio de Projeto sobre Git/GitHub da DIO
+# Desafio de Projeto sobre Git/GitHub da DIO
 *Este repositório conterá todos os projetos feitos nos bootcamps da DIO*
 
 
