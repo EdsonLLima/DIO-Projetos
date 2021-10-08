@@ -1,9 +1,9 @@
-#Comandos Basicos do Git#
+# Comandos Basicos do Git #
 
 - git status
 - git add .
 
 
-##Observações/Anotações##
+### Observações/Anotações ###
 - Atualmente utilizo o terminal personalizado do windows com linux Ubuntu 20.04 para trabalhar com git ou qualquer outra tarefa via terminar que for necessária.
 
