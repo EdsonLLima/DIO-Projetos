@@ -14,4 +14,4 @@ Nessa parte se econtra o link de todos os desafios e seus repositorios que foram
 *Tecnologias usadas nesse desafio:*
 - [Desafio A](link)
 - [Desafio B](link)
-- [Desafio C](link)
+- [Desafio D](link)
