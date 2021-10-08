@@ -13,5 +13,5 @@ Nessa parte se econtra o link de todos os desafios e seus repositorios que foram
 ### Desafio: Criar um repositório no GitHub 
 *Tecnologias usadas nesse desafio:*
 - [Desafio A](link)
-- [Desafio X](link)
+- [Desafio B](link)
 - [Desafio C](link)
