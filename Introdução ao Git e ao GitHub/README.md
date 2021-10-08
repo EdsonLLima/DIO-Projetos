@@ -5,5 +5,5 @@
 
 
 ##Observações/Anotações##
-- Atualmente utilizo o terminal personalizado do windows com linux Ubuntu 20.04 para trabalhar com git ou qualquer outra tarefa que achar necessária.
+- Atualmente utilizo o terminal personalizado do windows com linux Ubuntu 20.04 para trabalhar com git ou qualquer outra tarefa via terminar que for necessária.
 
