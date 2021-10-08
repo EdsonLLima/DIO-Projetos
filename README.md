@@ -12,6 +12,6 @@ Nessa parte se encontra o link de todos os desafios e seus repositorios que fora
 Nessa parte se econtra o link de todos os desafios e seus repositorios que foram realizados durante o Bootcamp
 ### Desafio: Criar um repositório no GitHub 
 *Tecnologias usadas nesse desafio:*
-- [Desafio O](link)
+- [Desafio A](link)
 - [Desafio X](link)
 - [Desafio C](link)
