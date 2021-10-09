@@ -1,19 +1,55 @@
-:root{
-  --vermelho:#e50914;
-  --preta: #141414;
+:root {
+  --orange: #ee6b2f;
+  --black-orange: #ff0000;
+  --black: #141414;
+  --yelow: #daa31c;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background: var(--preta);
-
+/* conteúdo base */
+body {
+  background: var(--black);
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
-header{
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+header .logo {
+  margin-left: 5px;
+  color: var(--orange);
+  font-family: "open sans", sans-serif;
+  font-size: 40px;
+}
+
+header nav {
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaaaaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #ffffff;
+}
+
+/* conteúdo do filme principal */
+.main-movie {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url(/Pokeflix/assets/img/pikachu-to-pichu.jpg);
+  height: 400px;
+  background-size: cover;
 }
