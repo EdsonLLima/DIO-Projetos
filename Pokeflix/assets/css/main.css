@@ -36,12 +36,16 @@ header .logo {
   font-size: 40px;
 }
 
-header nav {
+header .line {
+  display: none;
+  border: 1px solid var(--yelow);
+  width: 25%;
+  margin: 10px 0;
 }
 
 header nav a {
   text-decoration: none;
-  color: #aaaaaa;
+  color: var(--orange);
   margin-right: 10px;
 }
 
@@ -52,19 +56,20 @@ header nav a:hover {
 /* conteúdo do filme principal */
 .main-movie {
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url(/Pokeflix/assets/img/pikachu-to-pichu.jpg);
-  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%),
+    url(/Pokeflix/assets/img/pokemon-pricipal.jpg);
+  min-height: 60vh;
   background-size: cover;
-
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: left;
 }
 
 .main-movie .container {
   width: 70%;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .main-movie .title {
@@ -95,11 +100,25 @@ header nav a:hover {
 .container .btn:hover {
   background-color: white;
   color: black;
-  transition: 0.8s ease all;
+  transition: 0.5s ease all;
 }
 
 .container .btn i {
   margin-right: 8px;
   font-size: 16px;
   color: var(--orange);
+}
+
+/* carousel */
+
+.movie-carousel {
+  margin-top: 5px;
+}
+
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid var(--orange);
 }
