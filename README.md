@@ -10,6 +10,6 @@ Nessa parte se encontra o link de todos os desafios e seus repositorios que fora
 
 ## 💻 Bootcamp Localiza Labs
 Nessa parte se econtra o link de todos os desafios e seus repositorios que foram realizados durante o Bootcamp
-### Projeto: Recriando a Interface do Netflix 
+### Projeto: Recriando a Interface do Netflix! 
 *Tecnologias usadas nesse desafio: HTML5, CSS3,JavaScript, Git/GitHub*
 - [Desafio - Pokéflix ](./Pokeflix)
