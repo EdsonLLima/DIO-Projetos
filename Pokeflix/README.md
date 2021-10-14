@@ -1,13 +1,16 @@
-# Desafios de Projetos da DIO
+<p align="center">
+  <img alt="Pokéflix" src="./assets/img/pokeflix-project.png" width="100%">
+</p>
 
-_Este repositório conterá todos os projetos feitos nos bootcamps da DIO_
+## 🚀 Tecnologias
 
-## 💻 Bootcamp Eduzz
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Nessa parte se encontra o link de todos os desafios e seus repositorios que foram realizados durante o Bootcamp
+- HTML
+- CSS
+- JQuery
+- Carrinho
 
-### Desafio: Criar um repositório no GitHub
+## 💻 Projeto
 
-_Tecnologias usadas nesse desafio: Git/GitHub, Windows Terminal, Markdown_
-
-- [Desafio - Git/GitHub](./Git-GitHub)
+O Pokéflix se originou do desafio Recriando a Interface da Netflix da DIO, no meu projeto eu segui as aulas do desafio mas recriando o projeto com algumas mudanças na estrutura interna do HTML e já aplicando as imagens e cores que achei interessante. Fiz o link de alguns vídeos do Youtube para as imagens do Carossel para ter algo em que clicar, mas o meu objetivo é usar esse projeto como partida para ser refatorado aplicando as próximas tecnologias _React e React Native_
