@@ -20,3 +20,33 @@
     width: 50%;
   }
 }
+
+@media screen and (min-width: 320px) {
+  .btn {
+    width: 225px;
+  }
+  .main-movie .container {
+    width: 90%;
+  }
+
+  .main-movie .title {
+    font-size: 25px;
+  }
+
+  .descript {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 411px) {
+  .main-movie .container {
+    width: 90%;
+  }
+
+  .main-movie .title {
+    font-size: 25px;
+  }
+
+  .descript {
+    width: 90%;
+  }
+}
