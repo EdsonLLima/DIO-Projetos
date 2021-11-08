@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="genius" src="./assets/img/genius.png" width="100%">
+  <img alt="genius" src="./assets/img/genius-2.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
