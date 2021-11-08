@@ -12,13 +12,13 @@ const green = document.querySelector('.green');
 const red = document.querySelector('.red');
 const yellow = document.querySelector('.yellow');
 
-//criada ordem aleatoria de cores
-let shuffleOrder = ()=>{
+//cria ordem aleatoria de cores
+let shuffleOrder = () => {
   let colorOrder = Math.floor(Math.random() * 4);
   order[order.length] = colorOrder;
-  clickedOrder=[];
+  clickedOrder = [];
 
-  for(let i in order){
+  for(let i in order) {
     let elementColor = createColorElement(order[i]);
     lightColor(elementColor, Number(i) + 1);
   }
@@ -27,23 +27,24 @@ let shuffleOrder = ()=>{
 //acende a proxima cor.
 let lightColor = (element, number) => {
   number = number * 500;
-  setTimeout(()=>{
+  setTimeout(() => {
     element.classList.add('selected');
   }, number - 250);
 
-  setTimeout(()=>{
+  setTimeout(() => {
     element.classList.remove('selected');
   });
 }
 
 //checa se os botoes clicados são os mesmos da ordem gerada no jogo
-let checkOrder = ()=>{
-  for(let i in clickedOrder){
-    if(clickedOrder[i] != order){
+let checkOrder = () => {
+  for(let i in clickedOrder) {
+    if(clickedOrder[i] != order[i]){
       gameOver();
       break;
     }
   }
+
   if(clickedOrder.length == order.length){
     alert (`Pontução: ${score} \nVocê acertou! Iniciando proximo nível!`);
     nextLevel();
@@ -51,16 +52,16 @@ let checkOrder = ()=>{
 }
 
 //função para o clique do usuário
-let click = (color)=>{
+let click = (color) => {
   clickedOrder[clickedOrder.length] = color;
   createColorElement(color).classList.add('selected');
 
-  setTimeout(()=>{
+  setTimeout(() => {
     createColorElement(color).classList.remove('selected');
     checkOrder();
   }, 250);
   
-};
+}
 
 //função que retorna a cor
 let createColorElement = (color) => {
@@ -82,7 +83,7 @@ let nextLevel = () => {
 }
 
 //função para game over
-let gameOver = ()=>{
+let gameOver = () => {
   alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo.`);
   order = [];
   clickedOrder = [];
