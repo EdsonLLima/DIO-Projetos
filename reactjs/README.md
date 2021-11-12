@@ -13,7 +13,7 @@ Varios exercicios de apreendizagem:
 
 ## 💻 Projetos
 
-####Components em ReactAqui 
+#### Components em ReactAqui 
 
 - Criando simples exeplos de componentes como, item para lista, button, card
 - Exemplo simples de contador apenas somando e subtraind para exemplicar o uso dos componentes dinamicos com useState
