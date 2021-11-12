@@ -6,7 +6,7 @@
 
 Varios exercicios de apreendizagem:
 
-- Exercicio - Trabalhando com Components em React 
+- [Exercicio - Components em React](./components-react)
 - ??????
 - ??????
 - ??????
