@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo-react" src="./logo-react" width="100%">
+  <img alt="logo-react" src="./logo-react.jpg" width="100%">
 </p>
 
 # 🚀 React
