@@ -7,7 +7,7 @@
 Varios exercicios de apreendizagem:
 
 - [Exercicio - Components em React](./components-react)
-- ??????
+- [Exercicio - Components em React](./advanced-reacjs-dio/life-cycle)
 - ??????
 - ??????
 
