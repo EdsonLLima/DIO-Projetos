@@ -1,0 +1,48 @@
+import React, {Component} from "react";
+
+class Linkedin extends Component{
+
+  state = {
+    linker: 'title' 
+  }
+
+  componentDidMount(){
+    const {posts, loading} = this.props
+    console.log('componentDidMount', posts)
+    console.log('componentDidMount:loading', loading)
+  }
+
+  componentDidUpdate(prevProps){
+    const {loading} = this.props
+    if(this.props.loading !== prevProps.loading){
+      console.log('componentDidUpdate:loading', loading)
+    }
+  }
+
+  componentWillUnmount(){
+    console.log('componentWillUnmount: fui removido :(')
+  }
+
+  shouldComponentUpdate(nextProps, nextState){
+    return this.state.linker !== nextState.linker
+  }
+
+  linker = () => {
+    this.setState({
+      linker: true
+    })
+  }
+
+  render(){
+    const {posts} = this.props
+    console.log('render', posts)
+    return(
+      <div>
+        <button onClick={this.linker}>Re-render</button>
+        Testing
+      </div>
+    )
+  }
+}
+
+export default Linkedin

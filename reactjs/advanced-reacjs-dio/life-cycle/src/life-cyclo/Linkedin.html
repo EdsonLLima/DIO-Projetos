@@ -1,0 +1,46 @@
+import React, {useEffect, useState, memo} from "react";
+
+// shouldComponentUpdate
+const areEqual = (prevProps, nextProps) => {
+  return prevProps.loading === nextProps.loading
+}
+
+function Linkedin(props){
+  const {loading} = props
+  const [linker, setLinker] = useState('title')
+   
+//componentDidMount
+  useEffect(() => {
+    const {posts, loading} = props
+    console.log('componentDidMount', posts)
+    console.log('componentDidMount:loading', loading)
+  }, [])
+
+  //componentDidUpdate 
+  useEffect(()=>{
+    console.log('componentDidUpdate')
+  }, [loading])
+
+  // componentWillUnmount
+  useEffect(()=> {
+    return () => {
+      console.log('componentWillUnmount: fui removido :(')
+    }
+  }, [])
+ 
+
+  const handleLinker = () => {
+    setLinker('Linker upadte!')
+  }  
+
+  console.log('Linker upadte:', linker)
+  return(
+    <div>
+      <button onClick={handleLinker}>Re-render</button>
+      Testing
+    </div>
+  )
+  
+}
+
+export default memo(Linkedin, areEqual)
