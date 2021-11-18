@@ -5,3 +5,7 @@ https://github.com/allugo/Frases-Livros-API
 Frases aleatorias:
 https://allugofrases.herokuapp.com/frases/random
 
+
+Repositorios originais:
+
+https://github.com/celso-henrique/naruto-quotes-client e https://github.com/celso-henrique/naruto-quotes-server
