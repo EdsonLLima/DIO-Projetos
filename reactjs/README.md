@@ -8,7 +8,7 @@ Varios exercicios de apreendizagem:
 
 - [Exercicio - Components em React](./components-react)
 - [Exercicio - Advanced React JS](./advanced-reacjs-dio/life-cycle)
-- [Exercicio - Introduction in React Hooks](./intro-react-hooks\frases-com-naruto)
+- [Exercicio - Introduction in React Hooks](./intro-react-hooks/frases-com-naruto)
 - ??????
 
 ## 💻 Projetos
