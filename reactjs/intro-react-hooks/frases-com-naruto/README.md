@@ -1,6 +1,5 @@
-# Naruto Quotes Client
-
-Naruto quotes generator client for DIO lesson.
+# Frases & Naruto
+Gerador de Frases com imagem do Naruto. Versão personalizada.
 
 ## Alterações
 
