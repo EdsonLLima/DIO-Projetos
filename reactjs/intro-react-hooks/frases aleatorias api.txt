@@ -1,5 +1,7 @@
+Dentro desse diretorio existe as instruções de uso das URLs
 https://github.com/allugo/Frases-Livros-API
 
 
 Frases aleatorias:
 https://allugofrases.herokuapp.com/frases/random
+
