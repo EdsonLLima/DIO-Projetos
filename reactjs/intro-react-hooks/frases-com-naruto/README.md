@@ -7,13 +7,13 @@ Fiz o clone do repositório naruto-quotes-client, mas não fiz do naruto-quotes-
 que foi o servidor local criado para as frases de naruto.
 
 Como eu não queria fazer as configurações do Python no meu computador eu busquei uma nova solução,
-usar uma API exterda de Frases e encontrei essa.
+usar uma API externa de Frases e encontrei essa.
 
 - https://github.com/allugo/Frases-Livros-API
 - Frases aleatorias(URL usada):
   https://allugofrases.herokuapp.com/frases/random
 
-Então companhei todo o curso e durante as aulas fiz o ajuste para usar minha API externa.
+Então acompanhei todo o curso e durante as aulas fiz o ajuste para usar minha API externa.
 Com isso aprendi muitas coisa entre elas a usar uma variavél de ambiente no REACTJS.
 ´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´´
 
