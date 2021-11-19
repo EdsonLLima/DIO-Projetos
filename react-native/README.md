@@ -14,5 +14,5 @@ Varios exercicios de apreendizagem:
 
 #### Criado aplicações simples
 
-- Criando simples exeplos de componentes como, item para lista, button, card
-- Exemplo simples de contador apenas somando e subtraindo para exemplificar o uso dos componentes dinâmicos com useState.
+- Criando simples exeplos de aplicações para entender como funciona react-native
+- entendendo como funciona o uso do Flexbox dentreo do react-native
