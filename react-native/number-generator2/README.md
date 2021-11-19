@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="tela-app" src="./assets/image/app.jpeg" width="50%">
+  <img alt="tela-app" src="./assets/image/app.jpeg" width="35%">
 </p>
 
 # Gerador de Números
