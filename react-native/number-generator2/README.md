@@ -8,7 +8,7 @@ Gerador de números aletórios. Exercicio da DIO, para apresentar o React-Native
 
 ## Alterações
 
-O instrutor apresenta todas as ferramentas necessarias para poder da inicio aos trabalhos com React-Native.
+O instrutor <b>Pablo Henrique - Kurole<b> apresenta todas as ferramentas necessarias para poder da inicio aos trabalhos com React-Native.
 
 Mas segui um pouco diferenta dessas configurações inicias, pois a maquina que uso não me permite usar certos recursos necessários para
 se rodar o JDK e o emulador do Android. Então busquei uma solução mais enxuta usando o [EXPO](https://expo.dev/tools), que me permitiu usar meu celular para emular o aplicativo e fazer os testes.
