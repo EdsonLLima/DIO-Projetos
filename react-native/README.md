@@ -15,4 +15,4 @@ Varios exercicios de apreendizagem:
 #### Criado aplicações simples
 
 - Criando simples exeplos de aplicações para entender como funciona react-native
-- entendendo como funciona o uso do Flexbox dentreo do react-native
+- Entendendo como funciona o uso do Flexbox dentreo do react-native
