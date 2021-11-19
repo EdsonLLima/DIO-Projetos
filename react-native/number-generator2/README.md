@@ -8,6 +8,9 @@ O instrutor <b>Pablo Henrique - Kurole<b> apresenta todas as ferramentas necessa
 
 Mas segui um pouco diferenta dessas configurações inicias, pois a maquina que uso não me permite usar certos recursos necessários para
 se rodar o JDK e o emulador do Android. Então busquei uma solução mais enxuta usando o [EXPO](https://expo.dev/tools), que me permitiu usar meu celular para emular o aplicativo e fazer os testes.
+<p align="center">
+  <img alt="tela-app" src="./assets/image/app.jpeg" width="35%">
+</p>
 
 <p align="center">
   <img alt="tela-app" src="./assets/image/app.jpeg" width="35%">
