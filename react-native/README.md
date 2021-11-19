@@ -6,7 +6,7 @@
 
 Varios exercicios de apreendizagem:
 
-- [Exercicio - Criando Gerador de Números](./number-aleatory)
+- [Exercicio - Criando Gerador de Números](./number-generator)
 - ??????
 - ??????
 
