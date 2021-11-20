@@ -1,5 +1,4 @@
 import React from "react";
-import { ScrollView } from "react-native";
 import {
   StyleSheet,
   View,
@@ -7,9 +6,10 @@ import {
   Image,
   Alert,
   TouchableOpacity,
+  ScrollView,
 } from "react-native";
 import Icon from "react-native-vector-icons/Feather";
-
+import Card from "./src/components/Card";
 import photo from "./assets/edson-lima.jpg";
 
 const App = () => {
@@ -54,40 +54,15 @@ const App = () => {
               </TouchableOpacity>
             </View>
           </View>
-          <View style={style.card_container}>
-            <View style={style.card}>
-              <View style={style.card_header}>
-                <Text>Experiencia Profissional</Text>
-              </View>
-              <View style={style.card_content}>
-                <Text style={style.card_content_text}>
-                  Instrutor em Informática
-                </Text>
-                <Text style={style.card_content_text}>
-                  Desenvolvedor Wordpress
-                </Text>
-                <Text style={style.card_content_text}>
-                  Mega Empreendimentos FrontEnd
-                </Text>
-              </View>
-            </View>
-          </View>
 
-          <View style={style.card_container}>
-            <View style={style.card}>
-              <View style={style.card_header}>
-                <Text>Formação Academica</Text>
-              </View>
-              <View style={style.card_content}>
-                <Text style={style.card_content_text}>
-                  Faculdade Estacio de Sá
-                </Text>
-                <Text style={style.card_content_text}>
-                  Dio - Bootcamp Eduzz
-                </Text>
-              </View>
-            </View>
-          </View>
+          <Card title="Formação Academica">
+            <Text style={style.card_content_text}>Faculdade Estacio de Sá</Text>
+            <Text style={style.card_content_text}>Dio - Bootcamp Eduzz</Text>
+          </Card>
+          <Card title="Experiências Profissionais">
+            <Text style={style.card_content_text}>Mega</Text>
+            <Text style={style.card_content_text}>Futura TI</Text>
+          </Card>
         </View>
       </ScrollView>
     </>
@@ -122,25 +97,6 @@ const style = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     width: "60%",
-    marginTop: 20,
-  },
-  card_container: {
-    width: "100%",
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: 20,
-  },
-  card: {
-    width: "60%",
-    borderRadius: 5,
-    borderWidth: 1,
-    borderColor: "#939393",
-    padding: 10,
-    marginBottom: 5,
-    backgroundColor: "#ffffff",
-  },
-  card_header: {},
-  card_content: {
     marginTop: 20,
   },
   card_content_text: {
