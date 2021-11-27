@@ -1,4 +1,5 @@
 import React from "react";
+import RepositoryItem from "../repository-item";
 import * as S from "./styled";
 
 const Repositories = () => {
@@ -12,9 +13,27 @@ const Repositories = () => {
         <S.WrapperTab>Starred</S.WrapperTab>
         <S.WrapperTab>Following</S.WrapperTab>
       </S.WrapperTabList>
-      <S.WrapperTabPanel>panel Repositories</S.WrapperTabPanel>
-      <S.WrapperTabPanel>panel Starred</S.WrapperTabPanel>
-      <S.WrapperTabPanel>panel Following</S.WrapperTabPanel>
+      <S.WrapperTabPanel>
+        <RepositoryItem
+          name="bootstrap-4-autocomplete"
+          linkToRepo="https://github.com/edneto/bootstrap-4-autocomplete"
+          fullName="edneto/bootstrap-4-autocomplete"
+        />
+      </S.WrapperTabPanel>
+      <S.WrapperTabPanel>
+        <RepositoryItem
+          name="developer-roadmap"
+          linkToRepo="https://github.com/edneto/developer-roadmap"
+          fullName="edneto/developer-roadmap"
+        />
+      </S.WrapperTabPanel>
+      <S.WrapperTabPanel>
+        <RepositoryItem
+          name="cev-coursejs-exercise"
+          linkToRepo="https://github.com/edneto/cev-coursejs-exercise"
+          fullName="edneto/cev-coursejs-exercise"
+        />
+      </S.WrapperTabPanel>
     </S.WrapperTabs>
   );
 };
