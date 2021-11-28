@@ -10,7 +10,7 @@ const GithubProvider = ({ children }) => {
   const [githubState, setGithubState] = useState({
     user: {
       login: undefined,
-      name: undefined,
+      name: "Edson Lima",
       publicUrl: undefined,
       company: undefined,
       blog: undefined,
