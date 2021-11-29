@@ -11,7 +11,7 @@ Consumir api GitHub para buscar seus usuários, trazendo seus repositórios e re
 Montei minha versão do App da aula seguindo passo a passo a aula e tentando entender sua logica. Durante a aula eu mudei um pouco o layout(cores e botões), adicionai mais uma tab ao projeto para que possa ser exibido todas os users que seguem aquele repositorio pesquisado.
 
 
- link da API Github
+ ### link da API Github
     - user:
          https://api.github.com/users/nameuser
     - repositories:
