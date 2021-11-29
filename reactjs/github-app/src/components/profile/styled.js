@@ -15,6 +15,7 @@ export const WrapperInfoUser = styled.div`
   h1 {
     font-size: 32px;
     font-weight: bold;
+    color: #20b2aa;
   }
 
   h3 {
@@ -35,9 +36,13 @@ export const WrapperStatusCount = styled.div`
     margin: 8px;
     text-align: center;
   }
+
+  span {
+    color: #20b2aa;
+  }
 `;
 
-export const WrapperUserName = styled.div`
+export const WrapperUserGeneric = styled.div`
   display: flex;
   align-items: center;
   margin-top: 8px;
@@ -49,6 +54,10 @@ export const WrapperUserName = styled.div`
     font-size: 18px;
     color: #20b2aa;
     font-weight: bold;
+  }
+
+  span {
+    color: #20b2aa;
   }
 `;
 

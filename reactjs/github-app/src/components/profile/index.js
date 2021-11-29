@@ -7,36 +7,51 @@ const Profile = () => {
 
   return (
     <S.Wrapper>
-      <S.WrapperImage
-        src="https://avatars.githubusercontent.com/u/18309222?v=4"
-        alt="Avatar of user"
-      />
+      <S.WrapperImage src={githubState.user.avatar} alt="Avatar of user" />
       <S.WrapperInfoUser>
         <div>
           <h1>{githubState.user.name}</h1>
-          <S.WrapperUserName>
+          <S.WrapperUserGeneric>
             <h3>Username: </h3>
             <a
-              href="https://github.com/edneto"
+              href="{githubState.user.html_url}"
               target="_blank"
               rel="noreferrer"
             >
-              edneto
+              {githubState.user.login}
             </a>
-          </S.WrapperUserName>
+          </S.WrapperUserGeneric>
+          <S.WrapperUserGeneric>
+            <h3>Company: </h3>
+            <span>{githubState.user.company}</span>
+          </S.WrapperUserGeneric>
+          <S.WrapperUserGeneric>
+            <h3>Location: </h3>
+            <span> {githubState.user.location} </span>
+          </S.WrapperUserGeneric>
+          <S.WrapperUserGeneric>
+            <h3>Blog: </h3>
+            <a href={githubState.user.blog} target="_blank" rel="noreferrer">
+              {githubState.user.blog}
+            </a>
+          </S.WrapperUserGeneric>
         </div>
         <S.WrapperStatusCount>
           <div>
             <h4>Followers</h4>
-            <span>5</span>
-          </div>
-          <div>
-            <h4>Starred</h4>
-            <span>5</span>
+            <span>{githubState.user.followers}</span>
           </div>
           <div>
             <h4>Following</h4>
-            <span>5</span>
+            <span>{githubState.user.following}</span>
+          </div>
+          <div>
+            <h4>Gists</h4>
+            <span>{githubState.user.public_gists}</span>
+          </div>
+          <div>
+            <h4>Repos</h4>
+            <span>{githubState.user.public_repos}</span>
           </div>
         </S.WrapperStatusCount>
       </S.WrapperInfoUser>
