@@ -1,6 +1,9 @@
 # url-shortener-dio
 
-Projeto criado junto da DIO para construção de um Encurtador de URL.
+Projeto criado criado na aula de Projeto para criar um encurtador com node e banco de  dados mongodb
+
+Revisei com essa aula alguns conhecimentos do uso do mongodb basico.
+E consegui praticar um pouco mais com esse projeto o uso do TypeScritp e Node isso me ajudou a ganhar um poucomais de familiaridade com o seu ecossitema.
 
 ## Rodando o projeto
 
@@ -8,12 +11,3 @@ Projeto criado junto da DIO para construção de um Encurtador de URL.
 - `npm run build`
 - `npm run dev`
 
-Algumas informações sobre os vídeos:
-
-- Editor de Texto usado: VSCode
-  - Color Theme do editor: Material UI e Bluloco Dark
-- Programa para verificar as requests: Insomnia
-
-Informações pessoais:
-
-- Meu linkedin: https://www.linkedin.com/in/alexiapereira/
