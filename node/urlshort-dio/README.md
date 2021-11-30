@@ -1,4 +1,4 @@
-# url-shortener-dio
+# urlshort-dio
 
 Projeto criado criado na aula de Projeto para criar um encurtador com node e banco de  dados mongodb
 
