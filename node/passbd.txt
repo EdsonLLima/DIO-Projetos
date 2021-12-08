@@ -1,0 +1,5 @@
+dbadmin
+dbadmin2021
+
+
+mongodb+srv://dbadmin:<password>@urlnode.l2174.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
