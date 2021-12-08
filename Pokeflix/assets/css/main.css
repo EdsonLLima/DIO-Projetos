@@ -57,7 +57,7 @@ header nav a:hover {
 .main-movie {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 100%),
-    url(/Pokeflix/assets/img/pokemon-pricipal.jpg);
+    url(/assets/img/pokemon-pricipal.jpg);
   min-height: 60vh;
   background-size: cover;
   display: flex;
