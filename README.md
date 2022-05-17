@@ -16,3 +16,10 @@ Nessa parte se econtra o link de todos os desafios e seus repositorios que foram
 ### Projeto: Recriando a Interface do Netflix! 
 *Tecnologias usadas nesse desafio: HTML5, CSS3,JavaScript, Git/GitHub*
 - [Desafio - Pokéflix ](./Pokeflix) - [Publicado](https://focused-archimedes-070584.netlify.app/)
+
+## Bootcamp Spread
+Nessa parte se econtra o link de todos os desafios e seus repositorios que foram realizados durante o Bootcamp
+### Projeto: Flex-projeto 
+*Tecnologias usadas nesse desafio: HTML5, CSS3(padrão BEM) Git/GitHub*
+- [Projeto - flexbox ](./flex-projeto)
+
