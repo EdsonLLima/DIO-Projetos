@@ -1,0 +1,32 @@
+@media screen and (max-width: 1024px) {
+  .instagram-wrapper {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+
+    background: linear-gradient(
+      0deg,
+      rgba(160, 160, 160, 0.5) 25%,
+      rgba(255, 255, 255, 1) 35%
+    );
+  }
+
+  .instagram-wrapper {
+    width: 90%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .instagram-continue {
+    width: 100%;
+  }
+}
