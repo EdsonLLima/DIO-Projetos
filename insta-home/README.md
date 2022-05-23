@@ -1,7 +1,7 @@
 # Project Instagram Home DIO
 
 <p align="center">
-  <img alt="projeto-insta-home" src="../img/apresentacao-instagran.png" width="100%">
+  <img alt="projeto-insta-home" src="./img/apresentacao-instagran.png" width="100%">
 </p>
 
 ## O objetivo do projeto é replicar o layout da página inicial do instagram e estilizar usando o Flexbox
